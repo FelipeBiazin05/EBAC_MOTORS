@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Motors</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC Motors</h1>
+            <div class="menu-hamburguer">
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Destaque</a>
+                    </li>
+                    <li>
+                        <a href="#">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="carousel-imagens">
+        <img src="./images/slide1.png" alt="Porshe">
+        <img src="./images/slide2.png" alt="BMW">
+        <img src="./images/slide3.png" alt="Carro da FORD">
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel-imagens').slick({ 
+                autoplay: true
+            });
+        });
+    </script>
+</body>
+</html>
